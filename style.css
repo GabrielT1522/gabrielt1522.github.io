@@ -13,10 +13,9 @@ h1{
     border-bottom: 5px solid maroon;
 }
 
-p#guarantee{
-    color: white;
-    border: 3px solid black;
+p#links{
+    border: 3px solid maroon;
     padding: 25px;
     margin: 100px;
-    background-color: maroon;
+
 }
