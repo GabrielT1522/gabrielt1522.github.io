@@ -1,0 +1,22 @@
+body{
+    color: black;
+    font-family: Verdana, sans-serif;
+    background-color: #dedede;
+}
+
+h1, h2 {
+    border-bottom: 3px dotted maroon;
+}
+
+h1{
+    text-align: center;
+    border-bottom: 5px solid maroon;
+}
+
+p#guarantee{
+    color: white;
+    border: 3px solid black;
+    padding: 25px;
+    margin: 100px;
+    background-color: maroon;
+}
