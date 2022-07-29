@@ -4,11 +4,12 @@ body{
     background-color: #dedede;
 }
 
-h1, h2 {
+h2.h2dot {
     border-bottom: 3px dotted maroon;
 }
 
 h1{
+    border-bottom: 3px dotted maroon;
     text-align: center;
     border-bottom: 5px solid maroon;
 }
