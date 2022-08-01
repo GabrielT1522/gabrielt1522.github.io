@@ -14,7 +14,7 @@ h1{
     border-bottom: 5px solid maroon;
 }
 
-li {
+li.menubar {
     float: left;
   }
   
@@ -38,7 +38,7 @@ p#links{
     margin: 100px;
 }
 
-ul#menu{
+ul.menubar{
     list-style-type: none;
     margin: 0;
     padding: 0;
