@@ -9,49 +9,66 @@ h2.h2dot {
 }
 
 h1{
-    border-bottom: 3px dotted maroon;
-    text-align: center;
-    border-bottom: 5px solid maroon;
+  text-align: center;
+  border-bottom: 5px solid maroon;
 }
 
-li.menubar {
-    float: left;
-  }
+/*Start creating menubar element*/
+ul#menubar{
+  list-style-type: none;
+  margin: 10px;
+  padding: 10px;
+  overflow: hidden;
   
-li a {
-    display: block;
-    color: black;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-}
-  
-  li a:hover {
-    background-color: white;
-  }
-  
-
-p#links{
-    border-radius: 10px;
-    border: 3px solid maroon;
-    padding: 25px;
-    margin: 100px;
 }
 
-ul.menubar{
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    
-}
-.active {
-    background-color: #04AA6D;
+ul#menubar > li {
+    float: left; 
   }
 
-div.center{
-    border-radius: 10px;
-    margin: 25px;
-    border: 3px solid maroon;
-    text-align: center;
+ul#menubar > li > a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+  
+ul#menubar > li > a:hover {
+  background-color: white;
+  }
+
+li.active {
+  background-color: gray;
+}
+
+/*End creating menubar element*/
+  
+div#main{
+  width: 500px;
+  border-radius: 10px;
+  margin: 25px;
+  border: 3px solid maroon;
+  text-align: center;
+}
+
+div#links{
+  border-radius: 10px;
+  border: 3px solid maroon;
+  padding: 25px;
+  margin: 100px;
+}
+
+.container {
+  height: 450px;
+  position: relative;
+}
+
+.center {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
 }
