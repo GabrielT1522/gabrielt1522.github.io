@@ -44,6 +44,12 @@ li.active {
 }
 
 /*End creating menubar element*/
+
+ul#courses{
+  -webkit-column-count: 3;
+  -moz-column-count: 3;
+  column-count: 3;
+}
   
 div#main{
   width: 600px;
@@ -54,7 +60,6 @@ div#main{
 }
 
 div#links{
-  position: bottom;
   border-radius: 10px;
   border: 3px solid maroon;
   padding: 25px;
