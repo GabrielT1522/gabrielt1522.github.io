@@ -20,11 +20,11 @@ ul#menubar{
   margin: 10px;
   padding: 10px;
   overflow: hidden;
-  
 }
 
 ul#menubar > li {
-    float: left; 
+  display: inline-block;
+  border: 1px solid maroon;
   }
 
 ul#menubar > li > a {
@@ -65,6 +65,20 @@ div#links{
   padding: 25px;
   margin: 100px;
 }
+
+div#border {
+  width: 1000px; /* Set the width of the border */
+  margin: 0 auto; /* Center the border horizontally */
+  padding: 20px; /* Add some padding to the element */
+}
+
+div#homeborder {
+  width: 1000px; /* Set the width of the border */
+  margin: 0 auto; /* Center the border horizontally */
+  text-align: center; /* Center the text within the element */
+  padding: 20px; /* Add some padding to the element */
+}
+
 
 .container {
   height: 450px;
